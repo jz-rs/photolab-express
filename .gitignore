@@ -1,0 +1,14 @@
+# Generado al usar la app
+.cache/
+output/
+profile.out
+cache/
+temp_images/
+streamlit.log
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/

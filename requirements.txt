@@ -1,0 +1,11 @@
+streamlit>=1.50
+opencv-python-headless>=4.10,<5
+numpy
+pandas
+Pillow
+scikit-learn
+diskcache
+torch
+transformers
+pytest
+snakeviz
