@@ -106,4 +106,4 @@ Sin `--folder`, el benchmark genera imágenes sintéticas.
 
 ## Autoría y origen
 
-PhotoLab Express nació como un proyecto desarrollado en equipo. Esta versión la rehízo y mejoró **Jezabel Rosso** de forma individual: corrigió errores de la versión original, optimizó el rendimiento con mediciones (benchmark y profiling) y mejoró los tests. Los problemas corregidos están detallados en [docs/DECISIONES_TECNICAS.md](docs/DECISIONES_TECNICAS.md).
+PhotoLab Express nació como un proyecto desarrollado en equipo. Esta versión la rehice y mejoré: corregí errores de la versión original, optimicé el rendimiento con mediciones (benchmark y profiling) y mejoré los tests. Los problemas corregidos están detallados en [docs/DECISIONES_TECNICAS.md](docs/DECISIONES_TECNICAS.md).
