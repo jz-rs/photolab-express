@@ -8,6 +8,10 @@
 
 App en Streamlit para procesar un lote de fotos: aplica filtros, detecta rostros y clasifica cada foto con IA (CLIP) en persona, animal, objeto, edificio, paisaje o dibujo. Las fotos procesadas se ordenan en carpetas por categoría.
 
+![Resultados: rostros detectados y cada foto clasificada por CLIP con su porcentaje](docs/img/resultados.gif)
+
+*Resultados de un lote de 10 fotos: rostros detectados y cada foto clasificada con su porcentaje de confianza. [Ver el recorrido completo por la app (video)](https://portafolio-v2-cyan.vercel.app/media/galeria/photolab-express.mp4).*
+
 El foco del proyecto es el **rendimiento**: procesamiento paralelo, caché en disco, generadores y un benchmark que respalda cada decisión.
 
 ## Qué hace
@@ -100,7 +104,7 @@ Sin `--folder`, el benchmark genera imágenes sintéticas.
 ├── tests/                  Tests con pytest
 ├── data/golden_images/     Imágenes de referencia de los tests
 ├── profiling/              Benchmark y profiling
-├── docs/                   Decisiones técnicas
+├── docs/                   Decisiones técnicas e imágenes del README
 └── requirements.txt
 ```
 
